@@ -8,7 +8,7 @@ const options = {
   },
   elements: {
     point: {
-      radius: 1,
+      radius: 0,
     },
   },
   maintainAspectRatio: false,
@@ -17,7 +17,7 @@ const options = {
     intersect: false,
     callbacks: {
       label: function (tooltipItem, data) {
-        return numeral(tooltipItem.value).format("+0,0"); // only positive part of number with no decimal
+        return numeral(tooltipItem.value).format("+0,0");
       },
     },
   },
@@ -39,7 +39,7 @@ const options = {
         ticks: {
           // Include a dollar sign in the ticks
           callback: function (value, index, values) {
-            return numeral(value).format("0a"); // represent numerical value in k like 104k
+            return numeral(value).format("0a");
           },
         },
       },
@@ -63,7 +63,7 @@ const buildChartData = (data, casesType) => {
   return chartData;
 };
 
-function LineGraph({ casesType='cases' }) {
+function LineGraph({ casesType }) {
   const [data, setData] = useState({});
 
   useEffect(() => {
