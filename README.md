@@ -34,6 +34,32 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+### NOTE - Please select country for clear view of cases/recovered/death stats. You can also zoom in/out for proper display.
+![ind-cases](/public/ind.jpg)
+
+![china-cases](/public/china.jpg)
+
+![usa-cases](/public/usa.jpg)
+
+![aus-cases](/public/aus.jpg)
+<br />
+**This project focuses on providing covid statistics with visualizations inorder to better understand the rate at which covid is growing.**
+### FEATURES
+There are two types of visualizations used -
+* Map - shows number of deaths/cases/recovered **country-wise**
+* LineGraph - graph showing worldwide new cases,deaths or recovered cases as per user selection <br />
+We also have a stats column which displays live cases by Country <br />
+
+### Built With
+This application is built with love, dedication, coffee and:
+* [React JS](https://reactjs.org/)
+* [Material-UI](https://material-ui.com/) <br />
+* [Chart js](https://www.chartjs.org/) <br />
+* [React leaflet](https://react-leaflet.js.org/) <br />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -104,6 +130,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- Purpose -->
+## Purpose 
+The purpose of this project is aware users of covid-19 statistics in an attractive and easily understandable way. This project is great learning step for anyone wanting to work  with react and understanding how different features of react are implemented.
+Perosnally this project helped me - 
+* Master react components
+* understand implementation of material-ui library
+* understand implementation of chart-js to develop linegraph
+* work with react leaflet to generate map worldwide and country-wise.
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+Himank Jain - [@itsme_himank09](https://instagram.com/itsme_himank09) - My Instagram <br />
+Himank Jain - [himank-jain](https://www.linkedin.com/in/himank-jain/) - My LinkedIn  <br />
+Project Link: [https://github.com/Himank-J/covid-19](https://github.com/Himank-J/covid-19)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
